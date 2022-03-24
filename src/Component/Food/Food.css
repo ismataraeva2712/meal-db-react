@@ -1,0 +1,35 @@
+.food-container img{
+width: 300px;
+border-radius: 15px;
+
+}
+.food-container{
+    height: 650px;
+    width:300px;
+    border:1px solid lightslategray;
+    padding:5px;
+    border-radius: 15px;
+    position: relative;
+    
+}
+.food-info{
+    padding-left:10px;
+}
+.btn-order{
+    position:absolute;
+    bottom: 0;
+    width: 60%;
+    height:40px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(50, 28, 75);
+    color: white;
+    margin-left: 55px;
+    margin-bottom: 10px;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+.btn-order p{
+    margin-right: 5px;
+}

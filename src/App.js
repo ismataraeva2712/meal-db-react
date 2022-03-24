@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import Watch from './Component/Watch/Watch';
+import Foods from './Component/Foods/Foods';
+import Header from './Component/Header/Header';
 
 function App() {
   return (
-    <div className="App">
-
-      <Watch></Watch>
+    <div >
+      <Header></Header>
+      <Foods></Foods>
     </div>
   );
 }
